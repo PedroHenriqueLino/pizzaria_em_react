@@ -1,0 +1,74 @@
+{
+    "prodocts": [
+        {
+            "id": "1",
+            "name": "Batata Frita",
+            "price": 15.9,
+            "description": "Batatas crocantes e douradas, perfeitas para acompanhar seu pedido.",
+            "image": "batata.png"
+        },
+        {
+            "id": "2",
+            "name": "Hambúrguer",
+            "price": 22.9,
+            "description": "Hambúrguer artesanal preparado com ingredientes selecionados.",
+            "image": "hanburge.png"
+        },
+        {
+            "id": "3",
+            "name": "Lasanha",
+            "price": 29.9,
+            "description": "Lasanha saborosa com camadas de massa, molho e queijo.",
+            "image": "lasanha.png"
+        },
+        {
+            "id": "4",
+            "name": "Macarrão",
+            "price": 24.9,
+            "description": "Macarrão preparado com molho especial e muito sabor.",
+            "image": "macarao.png"
+        },
+        {
+            "id": "5",
+            "name": "Pizza",
+            "price": 39.9,
+            "description": "Pizza artesanal com massa saborosa e ingredientes frescos.",
+            "image": "pizza.png"
+        },
+        {
+            "id": "6",
+            "name": "Água",
+            "price": 5,
+            "description": "Água mineral gelada para acompanhar sua refeição.",
+            "image": "agua.png"
+        },
+        {
+            "id": "7",
+            "name": "Café",
+            "price": 6,
+            "description": "Café quentinho e preparado na hora.",
+            "image": "cafe.png"
+        },
+        {
+            "id": "8",
+            "name": "Coca-Cola",
+            "price": 7,
+            "description": "Refrigerante gelado para deixar sua refeição ainda melhor.",
+            "image": "coca.png"
+        },
+        {
+            "id": "9",
+            "name": "Drink",
+            "price": 12.9,
+            "description": "Drink refrescante preparado especialmente para você.",
+            "image": "drin.png"
+        },
+        {
+            "id": "10",
+            "name": "Suco",
+            "price": 8.9,
+            "description": "Suco refrescante preparado com frutas selecionadas.",
+            "image": "suco.png"
+        }
+    ]
+}

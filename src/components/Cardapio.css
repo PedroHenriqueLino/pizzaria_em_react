@@ -1,0 +1,169 @@
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#search {
+    width: 90%;
+    max-width: 500px;
+    padding: 12px 20px;
+
+    border: 2px solid #C62828;
+    border-radius: 25px;
+
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#search:focus {
+    border-color: #e9a209;
+    box-shadow: 0 0 8px rgba(233, 162, 9, 0.4);
+}
+
+.cardapio {
+    width: 100%;
+    padding: 40px;
+}
+
+.cardapio-header p {
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.cardapio-container {
+    width: 100%;
+    padding: 40px;
+    height: auto;
+    background: linear-gradient(to right,
+            #e9a209,
+            #d47b18,
+            #C62828);
+
+}
+
+#version-mobile {
+    display: none;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+    list-style: none;
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    max-height: 320px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: start;
+
+
+    img {
+        width: 100%;
+        height: 50%;
+        border-radius: 20px 20px 0px 0px;
+
+    }
+
+    div {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    h4 {
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    strong {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-weight: 700;
+        font-size: 1.5rem;
+
+        color: white;
+        background: #C62828;
+        border-radius: 10px;
+        border: none;
+        align-self: flex-start;
+        margin-left: 20px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 739px) {
+    .products-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: row;
+        max-height: none;
+        min-height: 150px;
+
+        position: relative;
+
+        button {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+    }
+
+    .products img {
+        width: 120px;
+        height: 200px;
+        object-fit: cover;
+
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .product-info {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 553px) {
+    #version-tablet {
+        display: none;
+    }
+
+    #version-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 417px) {
+
+
+
+
+    .cardapio-container {
+        width: 100%;
+        padding: 10PX;
+    }
+}
+
+
+
+@media (max-width: 353px) {
+    .products div p {
+        display: none;
+    }
+}
