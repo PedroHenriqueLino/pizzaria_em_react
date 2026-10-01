@@ -9,7 +9,7 @@ export const ProductContextProvider = ({ children }) => {
 
     const getData = async () => {
         try {
-            const data = await axios.get('http://localhost:3000/prodocts')
+            const data = await axios.get('https://pizzaria-em-react.onrender.com/prodocts')
 
             const response = data.data
 
